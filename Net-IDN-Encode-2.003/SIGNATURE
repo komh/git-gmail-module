@@ -1,0 +1,56 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 04a13098c55c43968a5e156a521f92dbade4c0bb Build.PL
+SHA1 eba8f30fe6b7ded57b886da458f885dc34b5a2bc Changes
+SHA1 7e55d75af78458f31f622a9b5f01c51a2b9a2072 LICENSE
+SHA1 4b8067d0c2cf1ed796e0c6246f3d765ceaec18bd MANIFEST
+SHA1 f38d6bfacc450153e26cbd0ac13c2c02e0f2ac1b META.json
+SHA1 0d74d4f8728cc78ffd4e33d43325f475a4ae97e3 META.yml
+SHA1 815436106c89976f5f40f0489585e6dabe260494 Makefile.PL
+SHA1 1bbf99c0d4229d3f9f267fbe3d72507e30dd212a README
+SHA1 c7825316b854216c50a88b5750c3a08a91e56695 eg/hello_idn.pl
+SHA1 da626e4a67218dc2ed50b4a5b45b258078db0681 eg/hello_idn_email.pl
+SHA1 3349e83e6cd497d5eeba795838e176c4ef4aa053 lib/Net/IDN/Encode.pm
+SHA1 0894f8f6a6627162b5bbf1a87a41ea67e34447bb lib/Net/IDN/Overview.pod
+SHA1 6b9a8883c39a0667b497a08185798bb1909873ed lib/Net/IDN/Punycode.pm
+SHA1 db9d9bf46f50ec3c95c2d49995fe1b13bd3639f0 lib/Net/IDN/Punycode.xs
+SHA1 3839d6936a1ecff1d85682f92b4ba5f931edc932 lib/Net/IDN/Punycode/PP.pm
+SHA1 cf68974392077c4fa2601a8bcad336e056ea33be lib/Net/IDN/Standards.pod
+SHA1 807be0c4da5aa61a97b9aa20a8c24b8537aa5b90 lib/Net/IDN/UTS46.pm
+SHA1 199e883ccde763f93054bb8f2ec81ad667c2f2ee lib/Net/IDN/UTS46/_Mapping.pm
+SHA1 aee3164d2582e59a5cacc389f455a54d5a3e42e5 t/00use.t
+SHA1 4bf2ce7aa9320362cccabd1e8a1b623192584890 t/10pod.t
+SHA1 66eed00a037a1282487bb287436672d7be42a6bf t/11pod_cover.t
+SHA1 61fddf36971509e81764000f8edbaf451e5493e5 t/domain_to_ascii.t
+SHA1 38b778d9f5072326c720ef358c79bd787dc93e83 t/domain_to_unicode.t
+SHA1 fb78f4beb7b62f5e04fae4e6d891fad869d0a9e3 t/encode_bytes.t
+SHA1 9cc5d106c594c43370fc135adf44d2f61372cfa7 t/encode_utf8.t
+SHA1 11738a334df75b930f65a8b771e8dd10f99c2e5a t/punycode_vec-pp.t
+SHA1 3c025aafc4c0fef62d65a133605a9cc1d4234ee9 t/punycode_vec-xs.t
+SHA1 30a64f88f0f7391d4adeefd13580d6542b799fcb t/uts46_api_call.t
+SHA1 2f80c8ce0c4006fe9b0ad35dd470c21f1456aec3 t/uts46_encode_bytes.t
+SHA1 832f448cbe5b33956124c91a1e6b93d3e7e690ef t/uts46_encode_utf8.t
+SHA1 a340c8fc9038203edffddcede80a848c30414ece t/uts46_to_ascii-trans.t
+SHA1 6696bb0b3a467cbc2823dd6ca65303bc29890394 t/uts46_to_ascii.t
+SHA1 f63d1172d3eed103b6e784a2dac80da1e15e4407 t/uts46_to_unicode.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (Darwin)
+
+iEYEARECAAYFAk8b9EUACgkQSKUOY2OWgPAxgQCcDW+Df7dAELPTbkOJlCMDU4bU
+6qAAn3dgWnWx5GKYhz0GX5rZZqJNV0rm
+=v9ld
+-----END PGP SIGNATURE-----

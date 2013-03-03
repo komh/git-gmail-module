@@ -1,0 +1,40 @@
+---
+abstract: 'Internationalizing Domain Names in Applications (UTS #46)'
+author:
+  - 'Claus Färber <CFAERBER@cpan.org>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  Test::More: 0
+  Test::NoWarnings: 0
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-IDN-Encode
+no_index:
+  directory:
+    - eg
+    - data
+provides:
+  Net::IDN::Encode:
+    file: lib/Net/IDN/Encode.pm
+    version: 2.003
+  Net::IDN::Punycode:
+    file: lib/Net/IDN/Punycode.pm
+    version: 1.100
+  Net::IDN::Punycode::PP:
+    file: lib/Net/IDN/Punycode/PP.pm
+    version: 1.100
+  Net::IDN::UTS46:
+    file: lib/Net/IDN/UTS46.pm
+    version: 1.000
+requires:
+  Unicode::Normalize: 0
+  perl: 5.008005
+resources:
+  license: http://dev.perl.org/licenses/
+version: 2.003
