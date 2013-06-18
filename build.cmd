@@ -10,6 +10,8 @@ sSubDirs = 'Authen-SASL-2.16',
            'IO-Socket-SSL-1.84',
            'Net-SMTP-SSL-1.01'
 
+call value 'OPENSSL_PREFIX', '/usr', 'OS2ENVIRONMENT'
+
 do while sSubDirs \= ''
     parse value sSubDirs with sDir sSubDirs
 
